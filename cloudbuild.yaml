@@ -15,7 +15,7 @@ steps:
     args:
       - '-c'
       - |
-        gcloud container clusters get-credentials ci-cd-cluster --zone us-central1 --project southern-field-441210-n4
+        gcloud container clusters get-credentials ci-cd-cluster --zone us-west1-a --project southern-field-441210-n4
 
   # deploy to GKE
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
