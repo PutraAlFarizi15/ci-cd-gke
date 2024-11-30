@@ -5,5 +5,5 @@ app = FastAPI()
 #update repo
 @app.get("/")
 def read_root():
-    return {"Hello": "FAST-API in GKE"}
+    return {"Hello": "FAST-API in GKE ayo berubah"}
 
