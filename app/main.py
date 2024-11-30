@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "Fast-API in Container"}
+    return {"Hello": "Fast-API in GKE"}
