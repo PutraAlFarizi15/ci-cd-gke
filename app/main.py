@@ -2,6 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+#update repo
 @app.get("/")
 def read_root():
-    return {"Hello": "Fast-API in GKE, waduh kok gk berubah ya?"}
+    return {"Hello": "FAST-API in GKE"}
+
